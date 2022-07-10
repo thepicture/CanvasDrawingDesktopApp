@@ -24,5 +24,12 @@
             <Setter Property="Width"
                     Value="auto" />
         </Style>
+        <Style TargetType="Button"
+               BasedOn="{StaticResource {x:Type FrameworkElement}}">
+            <Setter Property="Width"
+                    Value="auto" />
+            <Setter Property="Cursor"
+                    Value="Hand" />
+        </Style>
     </Application.Resources>
 </Application>

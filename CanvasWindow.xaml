@@ -38,6 +38,8 @@
                     Interval="12"
                     Value="10"
                     ValueChanged="HandleBrushSizeChanged" />
+            <Button Content="Undo" Click="HandleUndo"/>
+            <Button Content="Redo" Click="HandleRedo"/>
         </StackPanel>
 
         <StackPanel Grid.Row="1"
